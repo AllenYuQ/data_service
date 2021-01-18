@@ -1,0 +1,2 @@
+2021-01-08 11:04:38,740 [mlmetDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-08 11:04:38,753 [mlmetDB.py] [insertMany] [INFO] [20] 批量插入成功！

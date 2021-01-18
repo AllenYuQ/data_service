@@ -1,0 +1,883 @@
+2021-01-14 13:17:21,741 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:17:59,003 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:17:59,004 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:18:00,002 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:18:00,003 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:18:00,005 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:20:21,327 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:20:59,010 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:20:59,019 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:21:00,005 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:21:00,007 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:21:00,012 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:21:56,409 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:22:00,001 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:22:00,003 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:22:03,544 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:03,969 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:04,084 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:04,214 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:04,334 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:04,650 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:04,764 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:04,880 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:05,011 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:05,366 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:05,513 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:05,646 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:05,808 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:06,218 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:06,347 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:06,461 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:06,592 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:06,946 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:07,077 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:07,190 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:07,342 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:07,776 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:07,928 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:08,048 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:08,181 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:08,520 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:08,644 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:08,768 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:08,896 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:09,242 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:09,342 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:09,455 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:09,605 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:10,063 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:10,197 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:10,305 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:10,468 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:10,851 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:10,981 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:11,110 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:11,252 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:11,628 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:11,755 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:11,877 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:12,031 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:12,457 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:12,569 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:12,696 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:12,824 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:13,192 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:13,324 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:13,432 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:13,576 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:13,988 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:14,139 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:14,269 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:14,408 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:14,774 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:14,917 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:15,011 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:15,132 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:15,422 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:15,539 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:15,660 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:15,797 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:16,167 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:16,285 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:16,414 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:16,543 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:16,871 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:17,016 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:17,150 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:17,186 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:22:17,187 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:22:19,200 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:22:19,201 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:22:30,002 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:22:30,004 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:22:32,558 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:32,944 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:33,117 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:33,260 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:33,413 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:33,791 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:33,900 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:33,996 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:34,107 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:34,394 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:34,520 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:34,643 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:34,799 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:35,227 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:35,347 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:35,440 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:35,547 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:35,851 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:35,977 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:36,089 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:36,232 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:36,587 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:36,695 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:36,796 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:36,940 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:37,363 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:37,483 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:37,603 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:37,736 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:38,106 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:38,238 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:38,342 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:38,507 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:39,017 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:39,169 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:39,291 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:39,429 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:39,790 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:39,931 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:40,052 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:40,213 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:40,657 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:40,783 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:40,904 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:41,066 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:41,539 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:41,688 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:41,795 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:41,957 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:42,416 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:42,556 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:42,678 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:42,809 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:43,104 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:43,211 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:43,330 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:43,442 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:43,755 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:43,863 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:43,973 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:44,105 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:44,479 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:44,600 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:44,694 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:44,822 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:45,184 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:45,325 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:45,447 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:45,609 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:22:45,977 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:22:46,114 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:22:46,239 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:22:46,274 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:22:46,276 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:22:48,290 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:22:48,291 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:24:06,479 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:24:30,003 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:24:30,006 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:24:33,399 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:25:16,118 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:25:30,002 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:25:30,006 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:25:33,195 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:33,572 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:33,692 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:33,808 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:33,984 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:34,341 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:34,470 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:34,598 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:34,730 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:35,083 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:35,216 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:35,353 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:35,503 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:35,916 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:36,067 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:36,216 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:36,369 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:36,796 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:36,924 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:37,055 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:37,202 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:37,609 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:37,763 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:37,887 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:38,025 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:38,390 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:38,533 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:38,659 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:38,796 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:39,133 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:39,243 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:39,362 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:39,515 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:39,926 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:40,059 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:40,170 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:40,332 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:40,674 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:40,786 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:40,884 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:41,030 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:41,471 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:41,602 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:41,722 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:41,852 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:42,139 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:42,240 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:42,332 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:42,479 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:25:42,908 [mloutDB.py] [deleteByTimePoint] [INFO] [39] 删除成功!0条数据受到了影响
+2021-01-14 13:25:43,040 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time, station_name, substance_type, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:25:43,138 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:25:43,292 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:15,313 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:28:30,009 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:28:30,010 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:28:33,363 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:33,482 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:33,624 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:33,748 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:33,899 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:34,016 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:34,135 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:34,223 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:34,344 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:34,471 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:34,616 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:34,705 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:34,855 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:34,950 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:35,095 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:35,212 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:35,342 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:35,471 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:35,662 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:35,796 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:35,947 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:36,053 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:36,215 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:36,341 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:36,501 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:36,613 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:36,732 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:36,828 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:36,966 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:37,063 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:37,223 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:37,357 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:37,514 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:37,611 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:37,769 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time = %s
+2021-01-14 13:28:37,879 [mloutDB.py] [deleteByTimePoint] [INFO] [40] 删除失败
+2021-01-14 13:28:37,913 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:28:37,914 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:28:39,927 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:28:39,930 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:29:05,635 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:29:30,001 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:29:30,002 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:29:34,828 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:35,500 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:35,870 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:36,104 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:36,264 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:36,695 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:36,814 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:36,929 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:37,052 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:37,392 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:37,509 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:37,605 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:37,752 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:38,163 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:38,292 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:38,412 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:38,555 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:38,953 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:39,094 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:39,211 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:39,327 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:39,620 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:39,750 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:39,868 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:39,985 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:40,278 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:40,408 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:40,520 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:40,653 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:40,984 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:41,089 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:41,208 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:41,310 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:41,590 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:41,704 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:41,825 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:41,950 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:42,290 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:42,413 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:42,540 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:42,683 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:43,037 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:43,155 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:43,263 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:43,416 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:43,840 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:43,977 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:44,103 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:44,467 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:44,894 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:45,051 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:45,185 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:45,342 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:45,743 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:45,893 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:46,001 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:46,146 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:46,519 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:46,653 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:46,784 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:46,913 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:47,253 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:47,363 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:47,474 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:47,619 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:48,015 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:48,161 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:48,277 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:48,404 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:29:48,707 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:29:48,848 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:29:48,950 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:29:48,988 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:29:48,989 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:29:51,000 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:29:51,001 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:30:00,004 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:30:00,005 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:30:02,808 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:03,089 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:03,232 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:03,373 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:03,513 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:03,866 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:03,974 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:04,077 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:04,210 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:04,571 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:04,701 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:04,819 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:04,968 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:05,363 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:05,469 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:05,586 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:05,707 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:06,049 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:06,167 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:06,277 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:06,429 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:06,832 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:06,987 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:07,108 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:07,264 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:07,693 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:07,851 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:07,986 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:08,153 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:08,559 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:08,695 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:08,804 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:08,950 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:09,305 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:09,423 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:09,538 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:09,666 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:09,987 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:10,118 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:10,211 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:10,346 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:10,715 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:10,818 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:10,935 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:11,064 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:11,368 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:11,462 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:11,571 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:11,711 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:12,146 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:12,286 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:12,399 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:12,544 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:12,913 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:13,046 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:13,160 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:13,296 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:13,680 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:13,783 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:13,867 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:14,006 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:14,340 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:14,463 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:14,585 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:14,727 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:15,084 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:15,218 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:15,336 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:15,462 [mloutDB.py] [deleteByTimePoint] [INFO] [32] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:30:15,786 [mloutDB.py] [deleteByTimePoint] [INFO] [38] 删除成功!0条数据受到了影响
+2021-01-14 13:30:15,919 [mloutDB.py] [insertMany] [INFO] [18] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:30:16,026 [mloutDB.py] [insertMany] [ERROR] [23] 批量插入失败！
+2021-01-14 13:30:16,061 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:30:16,063 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:31:50,433 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:32:00,002 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:32:00,006 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:32:03,369 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:03,731 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!0条数据受到了影响
+2021-01-14 13:32:03,843 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:03,856 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:04,025 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:04,437 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:04,568 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:04,586 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:04,719 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:05,085 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:05,217 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:05,236 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:05,382 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:05,741 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:05,886 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:05,905 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:06,025 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:06,309 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:06,437 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:06,453 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:06,606 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:07,034 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:07,177 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:07,196 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:07,329 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:07,676 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:07,820 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:07,840 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:07,965 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:08,249 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:08,395 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:08,417 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:08,556 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:08,887 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:08,998 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:09,013 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:09,153 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:09,534 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:09,664 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:09,679 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:09,792 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:10,079 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:10,218 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:10,237 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:10,390 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:10,790 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:10,920 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:10,938 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:11,043 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:11,305 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:11,441 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:11,462 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:11,600 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:11,950 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:12,084 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:12,102 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:12,255 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:12,671 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:12,822 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:12,844 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:12,965 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:13,245 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:13,366 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:13,387 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:13,527 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:13,929 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:14,083 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:14,106 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:14,244 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:14,595 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:14,719 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:14,740 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:14,778 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:32:14,778 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:32:16,790 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:32:16,792 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:32:30,007 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:32:30,011 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:32:32,588 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:32,966 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:33,097 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:33,115 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:33,245 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:33,614 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:33,741 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:33,757 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:33,895 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:34,306 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:34,433 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:34,455 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:34,613 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:35,029 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:35,144 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:35,158 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:35,292 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:35,646 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:35,789 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:35,807 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:35,958 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:36,317 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:36,430 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:36,447 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:36,581 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:36,934 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:37,082 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:37,101 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:37,261 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:37,771 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:37,915 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:37,933 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:38,088 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:38,521 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:38,691 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:38,711 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:38,831 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:39,116 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:39,216 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:39,230 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:39,374 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:39,802 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:39,929 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:39,945 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:40,099 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:40,505 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:40,638 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:40,655 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:40,804 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:41,171 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:41,289 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:41,307 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:41,453 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:41,803 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:41,913 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:41,929 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:42,059 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:42,404 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:42,545 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:42,568 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:42,705 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:43,039 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:43,163 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:43,179 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:43,295 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:43,569 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:43,667 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:43,684 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:43,816 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 13:32:44,179 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!23条数据受到了影响
+2021-01-14 13:32:44,299 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:32:44,314 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:32:44,343 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:32:44,344 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:35:28,350 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:35:30,004 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:35:30,005 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:35:33,375 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:36:44,613 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:37:00,011 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:37:00,013 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:37:03,326 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:37:03,327 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:37:05,452 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:37:05,454 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:43:21,263 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:43:30,011 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:43:30,012 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:43:33,561 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:43:33,563 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:43:35,580 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:43:35,583 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:48:00,302 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:48:30,008 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:48:30,012 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:48:34,411 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:49:12,490 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:49:30,001 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:49:30,003 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:49:35,055 [cronTask.py] [my_listener] [ERROR] [41] 定时任务出现错误，python端终止!
+2021-01-14 13:51:15,546 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:51:30,003 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:51:30,007 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:51:34,634 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:51:34,636 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:51:36,659 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:51:36,661 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:52:00,008 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:52:00,010 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:52:03,577 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:52:03,581 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:52:05,611 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:52:05,613 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:53:55,675 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:54:00,013 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:54:00,015 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:54:06,735 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:54:06,738 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:54:08,772 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:54:08,776 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:55:28,202 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 13:55:30,013 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 13:55:30,018 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:55:34,292 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:34,309 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:34,457 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:34,474 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:34,641 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:34,665 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:34,832 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:34,858 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:35,022 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:35,054 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:35,278 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:35,299 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:35,568 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:35,593 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:35,824 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:35,848 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,061 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:36,088 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,326 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:36,348 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,511 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:36,538 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,667 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:36,684 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,814 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:36,832 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:36,999 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:37,024 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:37,209 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:37,233 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:37,432 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:37,454 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:37,603 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:37,620 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:37,750 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 13:55:37,770 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 13:55:37,828 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 13:55:37,830 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 13:55:39,862 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 13:55:39,865 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 13:57:48,016 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 14:00:00,023 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 14:00:00,027 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:00:07,467 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:07,924 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!454条数据受到了影响
+2021-01-14 14:00:08,217 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:08,238 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:08,448 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:08,843 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:09,006 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:09,029 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:09,227 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:09,692 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:09,852 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:09,876 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:10,063 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:10,453 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:10,570 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:10,584 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:10,756 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:11,244 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:11,386 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:11,411 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:11,614 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:12,024 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:12,164 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:12,187 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:12,376 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:12,833 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:12,969 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:12,988 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:13,153 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:13,499 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:13,649 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:13,671 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:13,846 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:14,226 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:14,363 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:14,382 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:14,526 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:14,850 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:14,976 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:14,996 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:15,140 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:15,445 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:15,572 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:15,591 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:15,761 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:16,150 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:16,285 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:16,309 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:16,469 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:16,872 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:17,057 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:17,082 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:17,275 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:17,709 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:17,831 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:17,848 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:18,017 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:18,518 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:18,689 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:18,716 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:18,898 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:19,266 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:19,410 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:19,431 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:19,598 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:20,172 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:20,317 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:20,339 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:20,537 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:00:21,060 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!25条数据受到了影响
+2021-01-14 14:00:21,206 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:00:21,231 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:00:21,271 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 14:00:21,275 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 14:00:23,303 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 14:00:23,306 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:22:29,050 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-14 14:24:00,004 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 14:24:00,014 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:24:05,267 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:24:05,788 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!0条数据受到了影响
+2021-01-14 14:24:05,940 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:05,962 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:06,181 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:06,203 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:06,396 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:06,420 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:06,621 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:06,644 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:06,833 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:06,852 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:07,033 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:07,050 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:07,217 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:07,237 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:07,448 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:07,470 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:07,609 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:07,629 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:07,815 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:07,834 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:08,026 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:08,049 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:08,254 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:08,272 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:08,433 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:08,453 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:08,637 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:08,663 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:08,861 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:08,881 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:09,025 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:09,043 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:09,190 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:09,205 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:09,363 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:24:09,389 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:24:09,431 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 14:24:09,435 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 14:24:11,466 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 14:24:11,469 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:27:00,011 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 14:27:00,016 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:27:03,407 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:27:03,791 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!450条数据受到了影响
+2021-01-14 14:27:03,903 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:03,918 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,085 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,104 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,253 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,272 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,411 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,429 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,557 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,578 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,761 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,780 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:04,919 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:04,939 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:05,086 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:05,105 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:05,281 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:05,308 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:05,489 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:05,507 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:05,652 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:05,670 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:05,813 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:05,831 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,001 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,022 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,189 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,211 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,379 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,398 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,576 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,598 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,758 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,777 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,937 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:27:06,959 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:27:06,998 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 14:27:07,002 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 14:27:09,037 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 14:27:09,040 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:30:00,011 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2021-01-14 14:30:00,019 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!
+2021-01-14 14:30:04,277 [mloutDB.py] [deleteByTimePoint] [INFO] [31] 执行了delete from Mlout where time_point = %s
+2021-01-14 14:30:04,688 [mloutDB.py] [deleteByTimePoint] [INFO] [37] 删除成功!450条数据受到了影响
+2021-01-14 14:30:04,848 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:04,872 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:05,087 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:05,109 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:05,296 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:05,318 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:05,523 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:05,547 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:05,720 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:05,740 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:05,907 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:05,928 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:06,117 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:06,137 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:06,337 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:06,366 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:06,533 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:06,550 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:06,700 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:06,715 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:06,867 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:06,882 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,084 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:07,107 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,272 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:07,288 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,443 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:07,462 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,617 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:07,634 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,817 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:07,835 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:07,999 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:08,022 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:08,225 [mloutDB.py] [insertMany] [INFO] [17] 执行了INSERT INTO MLOUT(time_point, station_name, substance, prediction_value)VALUES(%s, %s, %s, %s)
+2021-01-14 14:30:08,246 [mloutDB.py] [insertMany] [INFO] [20] 批量插入成功！
+2021-01-14 14:30:08,290 [cronTask.py] [make_prediction] [INFO] [33] 模型计算完成！
+2021-01-14 14:30:08,293 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-14 14:30:10,321 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-14 14:30:10,322 [cronTask.py] [my_listener] [INFO] [44] 数据抓取和模型计算任务正常!

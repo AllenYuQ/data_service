@@ -1,0 +1,349 @@
+2021-01-13 14:18:49,153 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:19:00,011 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:19:00,015 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:19:01,009 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:19:01,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:19:20,012 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:19:20,014 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:19:22,024 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-13 14:19:22,035 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:19:40,005 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:19:40,007 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:19:40,008 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:19:40,010 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:21:31,533 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:21:46,924 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:22:01,166 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-13 14:24:43,634 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:25:02,409 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-13 14:26:03,027 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:27:01,111 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-13 14:31:51,140 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:32:03,528 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 14:00:00-2021-01-13 14:59:59
+2021-01-13 14:32:03,548 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:03,551 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:03,571 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:03,727 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 15:00:00-2021-01-13 15:59:59
+2021-01-13 14:32:03,749 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:03,751 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:03,773 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:03,916 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 16:00:00-2021-01-13 16:59:59
+2021-01-13 14:32:03,933 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:03,935 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:03,955 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:04,089 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 17:00:00-2021-01-13 17:59:59
+2021-01-13 14:32:04,105 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:04,108 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:04,126 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:04,252 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 18:00:00-2021-01-13 18:59:59
+2021-01-13 14:32:04,267 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:04,269 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:04,287 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:04,421 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 19:00:00-2021-01-13 19:59:59
+2021-01-13 14:32:04,442 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:04,444 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:04,465 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:04,620 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 20:00:00-2021-01-13 20:59:59
+2021-01-13 14:32:04,639 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:04,642 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:04,663 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:04,803 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 21:00:00-2021-01-13 21:59:59
+2021-01-13 14:32:04,824 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:04,826 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:04,851 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,003 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 22:00:00-2021-01-13 22:59:59
+2021-01-13 14:32:05,023 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,027 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,047 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,215 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 23:00:00-2021-01-13 23:59:59
+2021-01-13 14:32:05,243 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,246 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,273 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,425 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 0:00:00-2021-01-14 0:59:59
+2021-01-13 14:32:05,443 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,446 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,474 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,615 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 1:00:00-2021-01-14 1:59:59
+2021-01-13 14:32:05,634 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,637 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,656 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,784 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 2:00:00-2021-01-14 2:59:59
+2021-01-13 14:32:05,800 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,804 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,820 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:05,957 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 3:00:00-2021-01-14 3:59:59
+2021-01-13 14:32:05,976 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:05,979 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:05,999 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:06,141 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 4:00:00-2021-01-14 4:59:59
+2021-01-13 14:32:06,160 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:06,163 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:06,185 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:06,352 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 5:00:00-2021-01-14 5:59:59
+2021-01-13 14:32:06,375 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:06,377 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:06,403 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:06,561 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 6:00:00-2021-01-14 6:59:59
+2021-01-13 14:32:06,580 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:06,584 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:06,604 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:06,735 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 7:00:00-2021-01-14 7:59:59
+2021-01-13 14:32:06,753 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:06,756 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:06,774 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:06,944 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 8:00:00-2021-01-14 8:59:59
+2021-01-13 14:32:06,966 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:06,969 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:06,992 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,118 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 9:00:00-2021-01-14 9:59:59
+2021-01-13 14:32:07,133 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:07,137 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:07,155 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,303 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 10:00:00-2021-01-14 10:59:59
+2021-01-13 14:32:07,323 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:07,325 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:07,347 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,496 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 11:00:00-2021-01-14 11:59:59
+2021-01-13 14:32:07,516 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:07,519 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:07,540 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,681 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 12:00:00-2021-01-14 12:59:59
+2021-01-13 14:32:07,700 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:07,703 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:07,723 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,887 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 13:00:00-2021-01-14 13:59:59
+2021-01-13 14:32:07,908 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了0条数据
+2021-01-13 14:32:07,911 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:07,935 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:07,979 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:32:07,982 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:32:08,022 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:32:08,023 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:32:22,168 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 14:00:00-2021-01-13 14:59:59
+2021-01-13 14:32:22,190 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:22,194 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:22,215 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:22,372 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 15:00:00-2021-01-13 15:59:59
+2021-01-13 14:32:22,391 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:22,395 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:22,416 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:22,559 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 16:00:00-2021-01-13 16:59:59
+2021-01-13 14:32:22,578 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:22,579 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:22,597 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:22,739 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 17:00:00-2021-01-13 17:59:59
+2021-01-13 14:32:22,760 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:22,763 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:22,786 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:24,056 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 18:00:00-2021-01-13 18:59:59
+2021-01-13 14:32:24,080 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:24,082 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:24,108 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:24,254 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 19:00:00-2021-01-13 19:59:59
+2021-01-13 14:32:24,273 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:24,274 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:24,294 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:24,458 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 20:00:00-2021-01-13 20:59:59
+2021-01-13 14:32:24,479 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:24,480 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:24,503 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:24,640 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 21:00:00-2021-01-13 21:59:59
+2021-01-13 14:32:24,657 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:24,659 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:24,676 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:24,826 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 22:00:00-2021-01-13 22:59:59
+2021-01-13 14:32:24,847 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:24,850 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:24,870 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:25,039 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-13 23:00:00-2021-01-13 23:59:59
+2021-01-13 14:32:25,064 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:25,067 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:25,090 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:25,267 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 0:00:00-2021-01-14 0:59:59
+2021-01-13 14:32:25,290 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:25,293 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:25,319 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:25,493 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 1:00:00-2021-01-14 1:59:59
+2021-01-13 14:32:25,513 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:25,515 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:25,537 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:25,698 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 2:00:00-2021-01-14 2:59:59
+2021-01-13 14:32:25,723 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:25,727 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:25,750 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:25,924 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 3:00:00-2021-01-14 3:59:59
+2021-01-13 14:32:25,947 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:25,949 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:25,973 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:26,161 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 4:00:00-2021-01-14 4:59:59
+2021-01-13 14:32:26,188 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:26,191 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:26,230 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:26,414 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 5:00:00-2021-01-14 5:59:59
+2021-01-13 14:32:26,439 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:26,442 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:26,468 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:26,615 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 6:00:00-2021-01-14 6:59:59
+2021-01-13 14:32:26,633 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:26,637 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:26,660 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:26,830 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 7:00:00-2021-01-14 7:59:59
+2021-01-13 14:32:26,855 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:26,857 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:26,883 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,037 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 8:00:00-2021-01-14 8:59:59
+2021-01-13 14:32:27,055 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,058 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,080 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,230 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 9:00:00-2021-01-14 9:59:59
+2021-01-13 14:32:27,249 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,252 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,274 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,420 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 10:00:00-2021-01-14 10:59:59
+2021-01-13 14:32:27,437 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,440 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,456 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,579 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 11:00:00-2021-01-14 11:59:59
+2021-01-13 14:32:27,594 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,596 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,612 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,751 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 12:00:00-2021-01-14 12:59:59
+2021-01-13 14:32:27,770 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,772 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,792 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,919 [mlmetDB.py] [insertUniqueMany] [INFO] [37] 更新爬取的数据，时间段为:2021-01-14 13:00:00-2021-01-14 13:59:59
+2021-01-13 14:32:27,934 [mlmetDB.py] [insertUniqueMany] [INFO] [40] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:32:27,936 [mlmetDB.py] [insertUniqueMany] [INFO] [43] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:32:27,950 [mlmetDB.py] [insertUniqueMany] [INFO] [45] 批量插入成功！
+2021-01-13 14:32:27,982 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:32:27,984 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:32:29,035 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-13 14:32:29,038 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:34:45,474 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:35:08,463 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:36:01,497 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:01,520 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:01,681 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:01,704 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:01,848 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:01,868 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,025 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:02,043 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,209 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:02,234 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,429 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:02,457 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,637 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:02,661 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,813 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:02,830 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:02,983 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,003 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:03,182 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,203 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:03,379 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,407 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:03,557 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,588 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:03,751 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,773 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:03,957 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:03,982 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:04,160 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:04,184 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:04,349 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:04,370 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:04,527 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:04,553 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:04,698 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:04,722 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:04,890 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:04,914 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,093 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:05,115 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,314 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:05,334 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,498 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:05,517 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,670 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:05,692 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,831 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:36:05,852 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:36:05,885 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:36:05,888 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:36:06,012 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:36:06,016 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:36:27,034 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-13 14:36:27,037 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:37:01,020 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,040 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:01,170 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,188 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:01,328 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,347 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:01,508 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,533 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:01,713 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,736 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:01,903 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:01,921 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:02,083 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:02,108 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:02,305 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:02,329 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:02,503 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:02,526 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:02,694 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:02,715 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:02,878 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:02,901 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:03,074 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:03,096 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:03,252 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:03,273 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:03,420 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:03,440 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:03,601 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:03,623 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:03,792 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:03,813 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,010 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,035 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,190 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,211 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,370 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,391 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,557 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,579 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,739 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,762 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:04,945 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:04,969 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:05,117 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:05,138 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:05,295 [mlmetDB.py] [insertUniqueMany] [INFO] [39] 执行了Delete from Mlmet where time_point >= %s and time_point <= %s操作，更新了9条数据
+2021-01-13 14:37:05,321 [mlmetDB.py] [insertUniqueMany] [ERROR] [45] 插入异常！
+2021-01-13 14:37:05,360 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:37:05,363 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:37:06,020 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:37:06,022 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:49:48,614 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 14:50:00,718 [mlmetDB.py] [insertMany] [INFO] [19] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 14:50:00,736 [mlmetDB.py] [insertMany] [INFO] [22] 批量插入成功！
+2021-01-13 14:50:00,774 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 14:50:00,777 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 14:50:01,007 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 14:50:01,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-13 14:50:22,021 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-13 14:50:22,024 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 15:16:28,966 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 15:16:59,222 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-13 15:18:22,089 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 15:18:59,190 [cronTask.py] [my_listener] [ERROR] [39] 定时任务出现错误，python端终止!
+2021-01-13 15:22:38,393 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2021-01-13 15:23:00,913 [mlmetDB.py] [insertMany] [INFO] [19] 执行了INSERT INTO MLMET(TIME_POINT, POSITION_NAME, PRECIPITATION, TEMPERATURE, WS, WD, HUMIDITY, CLOUDRATE, SKYCON, PRESSURE, VISIBILITY, DSWRF, AQI, PM25)VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+2021-01-13 15:23:00,930 [mlmetDB.py] [insertMany] [INFO] [22] 批量插入成功！
+2021-01-13 15:23:00,965 [cronTask.py] [craw_task] [INFO] [22] 数据抓取成功!
+2021-01-13 15:23:00,966 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2021-01-13 15:23:01,012 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2021-01-13 15:23:01,013 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息

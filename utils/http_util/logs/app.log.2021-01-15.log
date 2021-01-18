@@ -1,0 +1,6 @@
+2021-01-15 12:40:39,852 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-15 12:40:41,891 [sendMsgToGo.py] [sendMsgToGo] [INFO] [21] go server 通知失败!
+2021-01-15 12:49:58,183 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-15 12:49:58,261 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server{"code":200,"msg":"接受消息成功！"}
+2021-01-15 14:55:37,297 [sendMsgToGo.py] [sendMsgToGo] [INFO] [12] 通知go server 生产消息
+2021-01-15 14:55:37,364 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server{"code":200,"msg":"接受消息成功！"}

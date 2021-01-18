@@ -1,0 +1,154 @@
+2020-12-31 15:56:11,192 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2020-12-31 15:56:20,005 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 15:56:20,006 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 15:56:21,003 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 15:56:21,004 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 15:56:23,014 [sendMsgToGo.py] [sendMsgToGo] [INFO] [19] go server 通知失败!
+2020-12-31 15:56:23,017 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:08:25,643 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2020-12-31 16:08:40,002 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:08:40,006 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:08:41,005 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:08:41,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:08:41,015 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:08:41,016 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:09:00,006 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:09:00,008 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:09:00,009 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:09:00,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:09:00,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:09:00,019 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:09:20,005 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:09:20,006 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:09:21,007 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:09:21,008 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:09:21,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:09:21,012 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:13:22,097 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2020-12-31 16:13:40,003 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:13:40,009 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:13:41,008 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:13:41,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:13:41,035 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:13:41,036 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:14:00,007 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:14:00,012 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:14:00,014 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:14:00,015 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:14:00,024 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:14:00,025 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:14:20,017 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:14:20,020 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:14:21,020 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:14:21,020 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:14:21,025 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:14:21,026 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:57:53,426 [main.py] [<module>] [INFO] [10] 空气质量预测API-Python端服务启动！
+2020-12-31 16:58:00,013 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:58:00,045 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:58:00,047 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:58:00,049 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:58:01,572 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:58:01,573 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:58:20,047 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:58:20,050 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:58:21,049 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:58:21,052 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:58:21,073 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:58:21,075 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:58:40,013 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:58:40,016 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:58:41,015 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:58:41,021 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:58:41,046 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:58:41,051 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:00,016 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:59:00,021 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:00,025 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:59:00,028 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:59:00,043 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:59:00,046 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:20,012 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:59:20,014 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:21,014 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:59:21,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:59:21,035 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:59:21,037 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:40,014 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 16:59:40,017 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 16:59:41,016 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 16:59:41,017 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 16:59:41,023 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 16:59:41,024 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:00,013 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:00:00,017 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:01,015 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:00:01,016 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:00:01,027 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:00:01,029 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:20,014 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:00:20,016 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:21,016 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:00:21,018 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:00:21,038 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:00:21,040 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:40,017 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:00:40,021 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:00:41,018 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:00:41,021 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:00:41,041 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:00:41,044 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:00,014 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:01:00,023 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:01,017 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:01:01,019 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:01:01,031 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:01:01,034 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:20,016 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:01:20,020 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:21,017 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:01:21,020 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:01:21,042 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:01:21,046 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:40,016 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:01:40,021 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:01:41,018 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:01:41,023 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:01:41,042 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:01:41,046 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:00,021 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:02:00,024 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:01,022 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:02:01,024 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:02:01,034 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:02:01,037 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:20,007 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:02:20,011 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:21,009 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:02:21,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:02:21,020 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:02:21,021 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:40,005 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:02:40,007 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:02:41,006 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:02:41,010 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:02:41,029 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:02:41,033 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:00,005 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:03:00,011 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:01,007 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:03:01,009 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:03:01,023 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:03:01,025 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:20,006 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:03:20,008 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:21,008 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:03:21,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:03:21,030 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:03:21,034 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:40,001 [cronTask.py] [craw_task] [INFO] [23] 数据抓取成功!
+2020-12-31 17:03:40,004 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
+2020-12-31 17:03:41,003 [cronTask.py] [make_prediction] [INFO] [31] 模型计算完成！
+2020-12-31 17:03:41,005 [sendMsgToGo.py] [sendMsgToGo] [INFO] [10] 通知go server 生产消息
+2020-12-31 17:03:41,011 [sendMsgToGo.py] [sendMsgToGo] [INFO] [16] go server{"code":200,"msg":"接受消息成功！"}
+2020-12-31 17:03:41,012 [cronTask.py] [my_listener] [INFO] [42] 数据抓取和模型计算任务正常!
